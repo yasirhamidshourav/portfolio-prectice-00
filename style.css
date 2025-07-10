@@ -49,3 +49,56 @@ header{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
+
+
+.bennar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 40px 0 180px;
+}
+.bennar-img{
+    width: 590px;
+    height: 672px;
+    margin-bottom: 0px;
+}
+.bennar-conten{
+    max-width: 580px;
+    height: 260px;
+    /* margin-top: 125px;
+    margin-right: 180px; */
+
+}
+.bannar-button{
+    background-color: #fd6e0a;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+}
+.bannar-button1{
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px 35px;
+    background-color: #fff8f3;
+    font-weight: bold;
+    
+}
+.bennar-conten h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.bennar-conten h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.bennar-conten p{
+    font-size: 18px;
+    color: #757575;
+}
+
