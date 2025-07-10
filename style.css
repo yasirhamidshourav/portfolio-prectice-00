@@ -180,3 +180,33 @@ main{
 }
 
 
+
+.Resume{
+    display: flex;
+    gap: 30px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.buttondiv{
+    text-align: center;
+}
+.Resume .Education{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.Resume div p{
+    color: #757575;
+
+}
+.Resume div h5{
+     color: #757575;
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+.Resume div h1{
+       font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
