@@ -1,3 +1,4 @@
+/* add font */
 .open-sans-body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -48,18 +49,18 @@ nav ul button,
     border: none;
 }
 
+/* second background */
 .second-bg {
     background-color: #fff8f3;
 }
-
+/* header section */
 header {
     background-image: url("images/developer.png"), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
 
-
-
+/* bennar section */
 .bennar {
     display: flex;
     justify-content: space-between;
@@ -67,17 +68,15 @@ header {
 }
 
 .bennar-img {
-    width: 590px;
-    height: 672px;
-    margin-bottom: 0px;
+    width: 80%;
+    height: 700px;
+     margin-bottom: -5px;
+    margin-left: 220px;
 }
 
 .bennar-conten {
     max-width: 580px;
-    height: 260px;
-    /* margin-top: 125px;
-    margin-right: 180px; */
-
+    align-items: center;
 }
 
 .bannar-button {
@@ -97,7 +96,6 @@ header {
     padding: 18px 35px;
     background-color: #fff8f3;
     font-weight: bold;
-
 }
 
 .bennar-conten h3 {
@@ -119,7 +117,7 @@ header {
 
 
 
-
+/* main section */
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -140,6 +138,7 @@ main {
     justify-content: center;
 }
 
+/* abput section */
 .about {
     padding: 130px 155px;
     text-align: center;
@@ -155,7 +154,6 @@ main {
     border: 1px solid black;
     /* background-color: #d6a2a200; */
     background-color: #FFFFFF;
-
 }
 
 .about-div {
@@ -164,7 +162,7 @@ main {
 }
 
 
-
+/* what section */
 .what-section {
     margin: 130px 0px;
 }
@@ -208,7 +206,7 @@ main {
 }
 
 
-
+/* resume section */
 .Resume {
     display: flex;
     gap: 30px;
@@ -228,7 +226,6 @@ main {
 
 .Resume div p {
     color: #757575;
-
 }
 
 .Resume div h5 {
@@ -244,7 +241,7 @@ main {
 }
 
 
-
+/* footer section */
 footer {
     display: flex;
     gap: 120px;
@@ -275,7 +272,6 @@ textarea {
 
 footer textarea {
     height: 180px;
-
 }
 
 .footer-button {
